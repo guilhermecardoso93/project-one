@@ -1,0 +1,27 @@
+{
+  "name": "projeto-1",
+  "version": "0.0.1",
+  "description": "inicial First Project - Learning about Git/Git Hub/HTML/CSS/JavaScript",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeCardoso93/project-one.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Guilherme Cardoso da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeCardoso93/project-one/issues"
+  },
+  "homepage": "https://github.com/GuilhermeCardoso93/project-one#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
