@@ -4,7 +4,7 @@
   "description": "inicial First Project - Learning about Git/Git Hub/HTML/CSS/JavaScript",
   "main": "src/index.html",
   "scripts": {
-   "start": "npx live-server src/",
+    "start": "npx live-server src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +22,8 @@
     "url": "https://github.com/GuilhermeCardoso93/project-one/issues"
   },
   "homepage": "https://github.com/GuilhermeCardoso93/project-one#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "live-server": "^1.2.1"
   }
 }
