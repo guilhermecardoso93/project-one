@@ -102,6 +102,8 @@ object-position: center;
 position: absolute;
 top: 0;
 left: 50vw;
+-webkit-text-stroke-width: 1px ;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .slide__copy h6 {
@@ -109,6 +111,7 @@ left: 50vw;
     font-weight: regular;
     text-transform: uppercase;
     letter-spacing: 3px;
+    
 
 }
 
