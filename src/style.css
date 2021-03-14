@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+* {
+    box-sizing: border-box;
+
+}
+:root {
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+--color-primary: #00a3e8;
+--color-primary2: #000000;
+--default-padding: 1rem;
+}
+body{
+    margin: 0px;
+    padding-top: 4.1rem
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    top:0;
+    left: 0;
+
+    width: 100vw;
+    height: 5.75rem;
+    padding: 0 1rem;
+
+    background-color :black;
+    font-weight: 300;
+    /* red/green/blue/trans -0-*/
+    color :#fff; 
+
+}
+.navebar__links li {
+    font-size: 1rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+
+}
+.navebar__links {
+    justify-self: end;
+}
+
+.navebar__links a { 
+    color: #fff;
+    text-decoration: none
+}
+.navebar__links a:hover {
+ color: var(--color-primary)
+
+
+}
+.logo--studion {
+    font-size:2.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.logo--studion__subtitle{
+    font-size: 0.875rem;
+    float:right;
+    font-weight: 300;    
+}
+.copy-primary {
+color: var(--color-primary);
+}
+.copy--primary2 {
+color: var(--color-primary2);
+}
+
+#slider{    
+    padding: var(--default-padding);
+    background-color: #00a3e8;
+    color: #ffffff;
+
+}
+
+.slide {
+    position: relative;
+    height: calc(100vh - 1rem);
+    margin: 0;
+}
+
+.slide__background-image {
+height: 100%;
+font-weight: normal;
+object-fit: cover;
+object-position: center;
+position: border;
+
+
+}
+.slide__copy {
+position: absolute;
+top: 0;
+left: 50vw;
+}
+
+.slide__copy h6 {
+    font-size: 15px;
+    font-weight: regular;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+
+}
+
+.slide__copy h2 {
+    font-size:150px; 
+    text-transform: uppercase;  
+    line-height: 120px;     
+    -webkit-text-stroke-width: 3px ;
+    -webkit-text-stroke-color:#000000}
+    
+    
+
+.slide__copy h2 span {
+    display: block;
+}
+
+.btn {
+cursor: pointer;
+  padding: 15px 30px;
+  border: 0.250rem solid rgb(255, 255, 255);
+  border-radius: 30px;
+  box-shadow: 5px 2px 2px rgb(177, 174, 174);
+  -webkit-text-stroke-width: 1px ;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+   color: #ffffff;
+  background: unset;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase; 
+  transition: 0.5s all ease;
+
+}
+
+.btn:hover, 
+.btn:active,
+ .btn:focus {
+box-shadow: 5px 2px 2px rgb(255, 255, 255);
+border-color: var(--color-primary2);
+background-color: var(--color-primary2);
+color: #fff;
+}
+
+.navebody {
+    position: relative;
+    height: calc(100vh - 4,75rem);
+    font-size: 1rem;
+    position: center;
+     padding: var(--default-padding);
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+    margin: 0;
+}
+.navebody h3 {
+    font-size: 30px;
+   
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
