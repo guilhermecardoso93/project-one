@@ -9,9 +9,10 @@
         <title>Studion</title>
     </head>
     <body>
-        <nav class="navbar">
+    <nav class="navbar">
+    <div class="container navebar__container">
             <h1 class="logo--studion">
-            Studi<span class="copy-primary">on</span>
+            Studio<span class="copy-primary">X</span>
             <span class="logo--studion__subtitle">Eventos</span>
             </h1>
 
@@ -43,7 +44,7 @@
                 </li>
 
         </ul>
-        </nav>     
+    </div> </nav>    
     
     <header>
         <div id="slider">
@@ -62,26 +63,41 @@
         </div>
     </header>
     <main>
-        <section>
-        <ul class="navebody">
-            <li><h3>+500 </h3>
-                 eventos realizados</li>
-            <li><h3>+ de 1.000.000 </h3> 
-                de ingressos vendidos</li>
-            <li><h3>+ de 300</h3>
-            empresas atendidas
+        <section id="counter">
+        <ul class="container counter__container">
+            <li>
+                <h3>+500
+                    <small> 
+                    eventos realizados
+                </small> </h3>
+                
+            </li>
+            <li>
+                <h3>+ de 1.000.000  <small> 
+                    ingressos vendidos
+                </small> </h3> 
+               
+            </li>
+            <li>
+                <h3>+ de 300
+                    <small>
+                        empresas atendidas
+                    </small>
+                </h3>
+           
         </li>
         </ul>    
-        </section>
-        <section>
-            <div>
-                <img src="./images/institutional.jpg" />
-            <h6>Fazmos Seu Evento Acontecer</h6>
+        </section >
+        <section class="container institutional">  
+            <img class="institutional__image" src="./images/institutional.png" alt="Studion Institutional" />
+            <div class="institutional__copy">
+            <h6>Fazemos Seu Evento Acontecer</h6>
             <h4>Lorem Ipsum Dolor sit amet, consectet adipiscing elit.</h4>
             
             <p>Lorem Ipsum Dolor sit amet, consectet adipiscing elit, elit diam, sed diam nonummy nibh euismod tinncivil ut laocret dolore magna aliqu.</p>
-            <button>Saiba Mais</button>
-        </div>
+            <button class="btn btn--institutional">Saiba Mais</button>
+                   </div>
+            
         </section>
         <section >
             <h6> Você infoma a temática e nós planejamos um evento com tecnologia e </h6>
