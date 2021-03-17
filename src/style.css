@@ -11,7 +11,8 @@ font-size: 16px;
 --color-primary: #00a3e8;
 --color-primary2: #000000;
 --default-padding: 1rem;
-background-image: "./image/background2.jpg";
+background-image: "./images/banner3.jpg";
+
 }
 body{
     margin: 0;
@@ -126,7 +127,7 @@ footer {
 }
 
 .slide__copy h6 {
-    font-size: 0.938rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
     letter-spacing: 0.188rem;
     margin-top: 5rem;
@@ -138,14 +139,16 @@ footer {
     font-size:9.375rem; 
     text-transform: uppercase;  
     line-height: 7.5rem;     
-    -webkit-text-stroke-width: 0.188rem;
+    -webkit-text-stroke-width: 0.258rem;
     -webkit-text-stroke-color:#000000}
     
     
 
 .slide__copy h2 span {
     display: block;
-}
+    -webkit-text-stroke-width: 0.258rem;
+    -webkit-text-stroke-color:#ffffff}
+
 
 .btn {
     cursor: pointer;
