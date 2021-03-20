@@ -109,20 +109,40 @@
         </section>
 
     </main>
-    <footer>
-        <h2> Studi<span>on</span><span>Eventos</span></h2>
-        <form>
-            <label>Receba news e promoções </label>
-            <input type="email" placeholder="email"/>
-            <button type="submit">Enviar</button>
+    <footer class="footer">
+        <div class="container footer__container">
+        <h2 class="logo--studion"> 
+            Studio<span class="copy-primary">x</span>
+            <span class="logo--studion__subtitle">Eventos</span>
+            </h2>
+        <form class="footer_form">
+            <label for="email">Receba news e promoções </label>
+            <fieldset>
+            <input id="email" type="email" placeholder="email"/>
+            <button type="submit">
+                <i class="fas fa-paper-plane fa-2x">
+                </i></button> </fieldset>
         </form>
-            <ul>
-                <il><a href="http://facebook.com" target="_blank">Facebook</a><il>
-                <il><a href="http://twitter.com" target="_blank">Twitter</a><il>
-                <il><a href="http://youtube.com" target="_blank">YouTube</a></il>
+            <ul class="footer__social">
+                <il>
+                    <a href="http://facebook.com" target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
+                        </a>                      
+                    </il>
+                <il><a href="http://twitter.com" target="_blank">
+                    <span class="fa-stack">
+                        <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fab fa-twitter fa-stack-1x "></i>
+                      </span>
+                    </a>
+                </il>
+                <il><a href="http://youtube.com" target="_blank">
+                    <i class="fas fa-play-circle fa-2x"></i>
+                    </a>
+                </il>
             </ul>
-            <hr />
-            </p><smal>Studio<span>ON</span> -  Todos Direitos Reservados </smal></p>
+            </div>
+           <smal>Studio<span>X</span> -  Todos Direitos Reservados </smal></p>
     </footer>
     </body>
 </html>

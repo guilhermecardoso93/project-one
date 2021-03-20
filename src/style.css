@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 * {
     box-sizing: border-box;
 
@@ -85,8 +87,8 @@ footer {
 }
 
 .logo--studion__subtitle{
+    display: block;
     font-size: 1rem;
-    float:right;
     font-weight: 300;    
 }
 .copy-primary {
@@ -238,7 +240,7 @@ footer {
     
 }
 .institutional__copy h6 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
     letter-spacing: 0.065rem;
     text-transform: uppercase;
@@ -247,7 +249,7 @@ footer {
     text-emphasis-position: top;
 }
 .institutional__copy h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top:1rem;
 }
 
@@ -339,3 +341,102 @@ footer {
     box-shadow: .313rem .125rem .125rem rgb(0, 0, 0);
     
 }
+
+.footer  {
+    background-color: #000;
+    color:#fff;
+    padding: 0 1rem;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0 3.75rem;
+}
+
+.logo--studion__subtitle {
+    display:block;
+ 
+    
+    
+}
+
+.footer .logo--studion {
+    justify-self: start;
+   
+}
+
+.footer_form {
+    display: grid;
+    place-items: center;
+    grid-template-columns:9ch auto ;
+    gap: 1.25rem; 
+
+}
+.footer_form fieldset{
+    position: relative;
+    border: unset;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+.footer_form input {
+    width: 100%;
+    background-color: var(--color-primary);
+    border: unset;
+    height: 2.875rem;
+    padding:1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:var(--color-primary2);
+}
+.footer_form input::placeholder {
+    color: #000;
+
+}
+
+.footer_form button {
+    border:unset;
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 2.875rem;
+    transition: 0.3s all ease;
+
+}
+
+.footer_form button:hover {
+    color:#fff;
+    background-color:#333;
+}
+.footer_form input :focus {
+outline-color:unset;
+
+}
+.footer_form label {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    font-weight: 300;
+    text-align: center;
+    
+}
+.footer__social {
+    justify-self: end;
+}
+
+.footer__social a,
+.footer__social a:visited,
+.footer__social a:active {
+    color: #fff;
+    margin-left: .2rem;
+}
+
+.footer__social a .fa-twitter,
+.footer__social a .fa-twitter:visited,
+.footer__social a .fa-twitter:active {
+    color: rgb(0, 0, 0);
+}
+
