@@ -345,26 +345,26 @@ footer {
 .footer  {
     background-color: #000;
     color:#fff;
-    padding: 0 1rem;
-    margin-top: 5;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .footer__container {
     display: grid;
     grid-template-columns: repeat(3, auto);
     align-items: center;
-    padding: 5.25rem 0 3.75rem;
+    border-bottom: 0.1rem solid #333;
+    padding: 5.25rem 0;
 }
 
 .logo--studion__subtitle {
-    display:block;
- 
-    
+    display:block;  
     
 }
 
 .footer .logo--studion {
     justify-self: start;
+    margin:0;
    
 }
 
@@ -372,15 +372,28 @@ footer {
     display: grid;
     place-items: center;
     grid-template-columns:9ch auto ;
-    gap: 1.25rem; 
+    gap: 1.375rem; 
+    width: 100%;
   
 
 }
-.footer_form fieldset{
+/*.footer_form__email{
     position: relative;
     border: unset;
     margin:0;
     padding: 0;
+    width: 100%;*/
+}
+
+.footer_form label {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    font-weight: 300;   
+}
+
+.footer__form__email {
+    display: grid;
+    grid-template-columns: auto 3.375rem;
     width: 100%;
 }
 
@@ -400,32 +413,27 @@ footer {
 
 }
 
-.footer_form button {
-    border:unset;
-    position: absolute;
-    right: 0;
-    top:0;
-    height: 2.875rem;
-    transition: 0.3s all ease;
+.footer__form__email button {
+  cursor:pointer;
+  border: unset;
+  height: 100%;
+  transition: 0.3s all ease;
 
 }
 
-.footer_form button:hover {
+.footer__form__email button:hover {
     color:#fff;
     background-color:#333;
 }
-.footer_form input :focus {
+.footer__form input :focus {
 outline-color:unset;
 
 }
-.footer_form label {
-    font-size: 0.875rem;
-    line-height: 1rem;
-    font-weight: 300;
-    text-align: center;
-    
-}
+
 .footer__social {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 0.5rem;
     justify-self: end;
 }
 
@@ -436,15 +444,8 @@ outline-color:unset;
     margin-left: .2rem;
 }
 
-.footer__social a .fa-twitter,
-.footer__social a .fa-twitter:visited,
-.footer__social a .fa-twitter:active {
+.footer__social .fa-twitter {
     color: rgb(0, 0, 0);
-}
-
-.footer hr {
-    border-color: #fff4;
-   
 }
 
 .footer p {
@@ -452,4 +453,5 @@ outline-color:unset;
     text-transform: uppercase;
     font-weight: 300;
     font-size: .875rem;
+    margin: 2.5rem;
 }
