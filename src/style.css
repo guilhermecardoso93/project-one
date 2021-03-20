@@ -346,6 +346,7 @@ footer {
     background-color: #000;
     color:#fff;
     padding: 0 1rem;
+    margin-top: 5;
 }
 
 .footer__container {
@@ -372,6 +373,7 @@ footer {
     place-items: center;
     grid-template-columns:9ch auto ;
     gap: 1.25rem; 
+  
 
 }
 .footer_form fieldset{
@@ -440,3 +442,14 @@ outline-color:unset;
     color: rgb(0, 0, 0);
 }
 
+.footer hr {
+    border-color: #fff4;
+   
+}
+
+.footer p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .875rem;
+}
