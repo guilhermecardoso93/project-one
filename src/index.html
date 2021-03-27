@@ -1,20 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
+       
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Studion</title>
-            </head>
-
+        <link rel="stylesheet" href="./style.css">
+        <title>StudioX</title>
+    </head>
     <body>
-        <h1> Hello World</h1>
-        <h2> Hello World</h2>
-        <h3> Hello World</h3>
-        <h4> Hello World</h4>
-        <h5> Hello World</h5>
-        <h6> Hello World</h6>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem illum doloremque quis, sed veritatis doloribus consequuntur assumenda blanditiis architecto ipsam fuga fugiat! Optio debitis obcaecati iure velit natus magnam!</p>
+    <nav class="navbar">
+    <div class="container navebar__container">
+            <h1 class="logo--studion">
+            Studio<span class="copy-primary">X</span>
+            <span class="logo--studion__subtitle">Eventos</span>
+            </h1>
 
+        <ul class="navebar__links">
+                <li>
+                    <a href="#empresa">
+                    Empresa
+                    </a> 
+                </li>
+                <li>
+                    <a href="#eventos">
+                        Eventos
+                    </a> 
+                </li>
+                <li>
+                    <a href="#galeria"> 
+                        Galeria
+                </a>
+                </li>
+                <li>
+                    <a href="#depoimentos">
+                        Depoimentos
+                </a> 
+                </li>
+                <li>
+                    <a href="#contatos">
+                        Contatos
+                </a>
+                </li>
+
+        </ul>
+    </div> </nav>    
+    
+    <header>
+        <div id="slider">
+            <div class="slide" >
+                <img 
+                class="slide__background-image" 
+                src="/images/banner3.jpg" 
+                alt="Studion Banner"/>
+                <div class="slide__copy">
+                <h6 ><span class="copy--primary2">Próximo evento</span>- Dia 25 de Setembro ás 19:00horas</h6>
+                <h2><span class="copy--primary2" >Creative</span> Minds</h2>
+                <button class="btn btm--slide">Saiba Mais</button> 
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="counter">
+        <ul class="container counter__container">
+            <li>
+                <h3>+500
+                    <small> 
+                    eventos realizados
+                </small> </h3>
+                
+            </li>
+            <li>
+                <h3>+ de 1.000.000  <small> 
+                    ingressos vendidos
+                </small> </h3> 
+               
+            </li>
+            <li>
+                <h3>+ de 300
+                    <small>
+                        empresas atendidas
+                    </small>
+                </h3>
+           
+        </li>
+        </ul>    
+        </section >
+    </section >
+    <section class="container institutional">  
+        <img class="institutional__image" src="./images/institutional.png" alt="Studion Institutional" />
+        <div class="institutional__copy">
+            <h6>Fazemos Seu Evento Acontecer</h6>
+               <h4>Lorem Ipsum Dolor sit amet, consectet adipiscing elit.</h4>        
+                 <p>Lorem Ipsum Dolor sit amet, consectet adipiscing elit, elit diam, sed diam nonummy nibh euismod tinncivil ut laocret dolore magna aliqu.</p>
+                 <button class="btn btn--institutional">Saiba Mais</button>
+               </div>
+        
+    </section>
+        <section class="quote">
+            <div class="container quote__contanier">
+                <div class="quote__copy">
+                    <h6> Você infoma a temática e nós planejamos um evento com tecnologia e </h6>
+                    <h2><span class="copy-primary">muita+</span>diversão</h2>
+                <button class="btn btn--quote">Fazer Cotação</button>
+                </div>
+             </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+        <h2 class="logo--studion"> 
+            Studio<span class="copy-primary">x</span>
+            <span class="logo--studion__subtitle">Eventos</span>
+            </h2>
+        <form class="footer_form">
+            <label for="email">Receba news e promoções </label>     
+            <div class="footer__form__email">    
+            <input type="email" id="email" placeholder="email"/>
+            <button type="submit">
+                <i class="fas fa-paper-plane fa-2x"></i>
+            </button>
+            </div>  
+        </form>
+        
+            <ul class="footer__social">
+                <il>
+                    <a href="http://facebook.com" target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
+                        </a>                      
+                    </il>
+                <il><a href="http://twitter.com" target="_blank">
+                    <span class="fa-stack">
+                        <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fab fa-twitter fa-stack-1x "></i>
+                      </span>
+                    </a>
+                </il>
+                <il><a href="http://youtube.com" target="_blank">
+                    <i class="fas fa-play-circle fa-2x"></i>
+                            </a>
+                        </il>
+                    </ul> 
+                 </div>         
+              <p>
+           <small>Studio<span class="copy-primary">X</span> -  Todos Direitos Reservados </small>
+            </p>  
+        </footer>
     </body>
 </html>
