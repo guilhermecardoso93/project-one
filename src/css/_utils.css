@@ -1,0 +1,38 @@
+.copy-primary {
+  color: var(--color-primary);
+  -webkit-text-stroke-width: 1.4px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.copy--primary2 {
+  color: var(--color-primary2);
+  -webkit-text-stroke-width: 1.4px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.copy--primary22 {
+  font-size: 4rem;
+  color: var(--color-primary2);
+  -webkit-text-stroke-width: 1.4px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+@media screen and (min-width: 1280px) {
+  copy-primary {
+    color: var(--color-primary);
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+
+  .copy--primary2 {
+    color: var(--color-primary2);
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+
+  .copy--primary22 {
+    font-size: 4rem;
+    color: var(--color-primary2);
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+}

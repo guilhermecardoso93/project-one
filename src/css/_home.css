@@ -1,0 +1,319 @@
+.slider {
+  background-color: #00a3e8;
+  color: #ffffff;
+}
+
+.slider__prev-arrow,
+.slider__next-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 5px solid #fff;
+  border-right: unset;
+  border-bottom: unset;
+  opacity: 0.8;
+}
+
+.slider__prev-arrow {
+  z-index: 1;
+  left: 1rem;
+  transform: rotate(-45deg);
+}
+
+.slider__next-arrow {
+  right: 1rem;
+  transform: rotate(135deg);
+}
+
+.slider__prev-arrow::before,
+.slider__next-arrow::before {
+  content: "";
+}
+
+.slick-arrow {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 1280px) {
+  .slick-arrow {
+    visibility: visible;
+  }
+}
+
+.slide {
+  position: relative;
+  height: 80vh;
+}
+
+.slide__background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Mobile */
+.slide__copy {
+  position: absolute;
+  top: 0;
+  left: 1vh;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.btn--slide {
+  align-items: center;
+  float: right;
+}
+
+.slide__copy span {
+  display: block;
+  -webkit-text-stroke-width: 0.1rem;
+  -webkit-text-stroke-color: #fdfdfd;
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .slide__copy {
+    padding-left: 50vw;
+    text-align: unset;
+  }
+
+  .slide__copy span {
+    display: inline;
+    -webkit-text-stroke-width: 0.258rem;
+    -webkit-text-stroke-color: #fdfdfd;
+  }
+
+  .slide {
+    position: relative;
+    height: 72.5vh;
+  }
+}
+
+.slide__copy h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem;
+  margin: 0;
+}
+
+.slide__copy h2 {
+  font-size: 4.25rem;
+  text-transform: uppercase;
+  line-height: 3.25rem;
+  -webkit-text-stroke-width: 0.238rem;
+  -webkit-text-stroke-color: #000000;
+}
+
+@media screen and (min-width: 1280px) {
+  .slide__copy h2 {
+    font-size: 6.25rem;
+    line-height: 6.25rem;
+    -webkit-text-stroke-width: 0.258rem;
+    -webkit-text-stroke-color: #050505;
+  }
+}
+
+.slide__copy h2 span {
+  display: block;
+}
+
+#counter {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.counter__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  place-items: center;
+  padding: 4.75.75rem 1rem;
+}
+
+.counter__container h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.counter__container h3 small {
+  font-size: 1.125rem;
+  display: block;
+}
+.institutional {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 3.125rem;
+  align-items: center;
+  padding: 1.375rem 0;
+  padding-bottom: 1px;
+  padding-right: 15px;
+}
+
+.institutional {
+  display: grid;
+  /*grid-template-columns: auto auto;*/
+  align-items: center;
+  padding: 0 0 4.375rem 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .institutional {
+    grid-template-columns: auto auto;
+    padding: 4.375rem;
+  }
+}
+
+.institutional__copy {
+  padding: 0 1rem 1.875rem 1rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .institutional__copy {
+    padding: 0 1.875rem;
+  }
+
+  .institutional__image {
+    max-width: 550px;
+  }
+}
+
+.institutional__image {
+  width: 100vw;
+}
+
+.institutional__copy h6 {
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+.institutional__copy h4 {
+  font-size: 1.5625rem;
+  margin-top: 1rem;
+}
+
+.institutional p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6875rem;
+  margin-bottom: 0;
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .quote__contanier {
+    align-items: center;
+  }
+
+  .quote__contanier {
+    display: grid;
+    align-items: bottom;
+    justify-items: end;
+    min-height: 80vh;
+  }
+
+  .quote__copy {
+    background-color: #fff;
+    padding: 5rem 4rem;
+  }
+
+  .quote {
+    background-image: url(../images/parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .quote__copy {
+    background-color: #fff;
+    padding: 1rem;
+  }
+
+  .quote__copy h6 {
+    font-size: 01.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1875em;
+    text-transform: uppercase;
+    line-height: 1.4375rem;
+    max-width: 40ch;
+    margin: 0;
+  }
+
+  .quote__copy h2 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: -0.1875;
+    margin: 2.2rem 0;
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+  .quote__copy h2 span {
+    display: block;
+  }
+
+  .container_events_show {
+    display: grid;
+    grid-template-columns: 3fr;
+    place-items: center;
+    padding: 4.75.75rem 1rem;
+  }
+}
+
+.quote {
+  background-image: url(../images/parallax.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 40%;
+  background-position: 40% top;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.quote__contanier {
+  display: grid;
+  align-items: bottom;
+  justify-items: end;
+  min-height: 80vh;
+}
+
+.quote__copy {
+  margin-top: 6rem;
+  background-color: #fff;
+}
+
+.quote__copy h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1875em;
+  text-transform: uppercase;
+  line-height: 1.4375rem;
+  max-width: 40ch;
+  margin: 0.5rem;
+}
+
+.quote__copy h2 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 5rem;
+  letter-spacing: -0.1975;
+  margin: 1.2rem 0;
+  -webkit-text-stroke-width: 1.4px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.quote__copy h2 span {
+  display: block;
+}
+
+.container_events_show {
+  display: grid;
+  grid-template-columns: 3fr;
+  place-items: center;
+  padding: 4.75.75rem 1rem;
+}

@@ -1,0 +1,20 @@
+.hero__copy h3 {
+  color: #efff;
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.hero__copy p {
+  color: azure;
+}
+
+.depoimento {
+  background-color: #00a3e8;
+}
+
+.depoimento img {
+  margin-top: 3rem;
+  align-items: center;
+}

@@ -1,0 +1,80 @@
+.events {
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 1200px;
+}
+.events_1,
+.events_2 {
+  display: grid;
+  grid-template-columns: 247px 600px 255px;
+  width: 100%;
+}
+.events_3 {
+  display: grid;
+  grid-template-columns: 247px 650px 255px;
+  width: 105%;
+  background-color: #f5f5f5;
+  gap: 3rem;
+}
+
+.events_3__text {
+  float: right;
+  width: 500px;
+  margin-top: 3rem;
+  margin-left: 20rem;
+}
+.events-buni {
+  text-transform: uppercase;
+  margin-bottom: 0.02rem;
+}
+
+.btn--events_comochegar {
+  background-color: unset;
+}
+.events_1_img,
+.events_2_img,
+.events_3_img {
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 2.5rem;
+}
+
+.events_1_text,
+.events_2_text {
+  float: right;
+  width: 500px;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.events img {
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+}
+.events h2 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 18px;
+  color: #00a3e8;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.events i {
+  color: #00a3e8;
+}
+
+.events h4 {
+  display: grid;
+  grid-template-columns: 1.5rem auto;
+  gap: 0.825rem;
+  font-size: 1rem;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 1, 675rem;
+}

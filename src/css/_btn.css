@@ -1,0 +1,118 @@
+.btn {
+  cursor: pointer;
+  padding: 0.938rem 1.875rem;
+  border: 0.25rem solid rgb(255, 255, 255);
+  border-radius: 1.875rem;
+  box-shadow: 0.313rem 0.125rem 0.125rem 0 rgb(177, 174, 174);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  color: #ffffff;
+  background: unset;
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
+}
+
+.btn--slide {
+  position: absolute;
+  top: 80%;
+  left: 18%;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .btn--slide {
+    position: absolute;
+    top: 95%;
+    left: 18%;
+    transform: translate(280%, -90%);
+  }
+
+  .btn--institutional {
+    display: inline block;
+    transform: translate(-30%);
+    color: #00a3e8(78, 5, 107);
+    background: rgb(0, 0, 0);
+    border-color: #00a3e8(78, 5, 107);
+    color: #00a3e8;
+    box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
+  }
+  .btn--quote {
+    color: #000;
+    background-color: #00a3e8;
+    border-color: #000;
+    box-shadow: 0.313rem 0.125rem 0.125rem rgb(0, 0, 0);
+  }
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  box-shadow: 0.313rem 0.125rem 0.125rem rgb(255, 255, 255);
+  border-color: var(--color-primary2);
+  background-color: var(--color-primary2);
+  color: #fff;
+}
+
+.btn--institutional {
+  display: block;
+  margin: 0 auto;
+  color: #00a3e8(78, 5, 107);
+  background: rgb(0, 0, 0);
+  border-color: #00a3e8(78, 5, 107);
+  color: #00a3e8;
+  box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
+}
+
+.btn--institutional:hover {
+  color: #000;
+  background-color: #00a3e8;
+  border-color: #000;
+  box-shadow: 0.313rem 0.125rem 0.125rem rgb(0, 0, 0);
+}
+
+.btn--quote:hover {
+  color: #00a3e8(78, 5, 107);
+  background: rgb(0, 0, 0);
+  color: #00a3e8;
+  box-shadow: 0.313rem 0.125rem 0.125rem rgb(0, 0, 0);
+  border: 0.25rem solid rgb(255, 255, 255);
+}
+
+.btn--quote {
+  display: block;
+  margin: 0 auto;
+  color: #000;
+  background-color: #00a3e8;
+  border-color: #000;
+  box-shadow: 0.313rem 0.125rem 0.125rem rgb(0, 0, 0);
+}
+
+.contact__form button {
+  color: #00a3e8(78, 5, 107);
+  background: rgb(255, 255, 255);
+  border-color: #00a3e8(78, 5, 107);
+  color: #00a3e8;
+  box-shadow: 0.313rem 0.125rem 0.125rem #00a3e8;
+  font-size: 1.5rem;
+}
+
+.contact__form button:hover {
+  color: #ffffff;
+  background-color: #00a3e8;
+  border-color: #ffffff;
+  box-shadow: 0.313rem 0.125rem 0.125rem #fff;
+}
+
+.events button {
+  color: #00a3e8(78, 5, 107);
+  background: rgb(0, 0, 0);
+  border-color: #00a3e8(78, 5, 107);
+  color: #00a3e8;
+  box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
+  font-size: 0.875rem;
+}
+
+.btn--events_comochegar {
+  background-color: unset;
+}
