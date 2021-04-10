@@ -32,6 +32,12 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .navbar__menu-btn {
+    display: none;
+  }
+}
+
 .navbar__links.active {
   display: grid;
   position: absolute;
@@ -41,7 +47,7 @@
   z-index: 10;
   width: 100vw;
   height: 100vh;
-  background: #000e;
+  background: #000;
   margin: 0;
   padding: 3rem 2rem;
 }
@@ -86,10 +92,4 @@
   align-self: start;
   font-size: 2.5rem;
   margin-top: 1rem;
-}
-
-@media screen and (min-width: 1280px) {
-  .navbar_menu-btn {
-    display: none;
-  }
 }

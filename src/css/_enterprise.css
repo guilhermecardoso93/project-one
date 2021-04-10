@@ -3,6 +3,7 @@
   width: fit-content;
   height: 85vh;
 }
+
 .slide__background-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,62 +14,113 @@
   margin-top: 0;
   margin-top: 1;
 }
+
 .enterprise.navbar,
 .enterprise .navebar__container {
   background: transparent;
 }
 
 .container_empresa {
-  width: fit-content;
-  margin: 0 auto;
-  margin-top: 2rem;
-  display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
-  /* grid-template-columns: auto auto; */
-  /* gap: 3rem; */
   align-items: center;
-  grid-template-columns: 1.5rem auto;
-  gap: 25.825rem;
+  padding: 0 0 4.375rem 0;
+  padding: 1rem;
+  width: fit-content;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  gap: 10.825rem;
+  padding: 1.875rem 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .container_empresa {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.5rem auto;
+    gap: 25.825rem;
+  }
 }
 
 .container_empresa h4 {
-  width: 450px;
-  height: 100px;
-  font-size: 25px;
-  line-height: 25px;
+  width: 25rem;
+  height: 6.25rem;
+  font-size: 1.5rem;
+  line-height: 1.556rem;
   color: #333333;
   font-weight: 700;
-  margin-top: 0;
+  align-items: center;
+  padding: 0 1rem 1.875rem 1rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .container_empresa h4 {
+    font-size: 1.56rem;
+    line-height: 1.56rem;
+    width: 28rem;
+    height: 6.25rem;
+  }
 }
 
 .container_empresa h2 {
-  font-size: 17px;
-  line-height: 27px;
+  font-size: 1.083rem;
+  line-height: 1.688rem;
   color: #333333;
   font-weight: 400;
   font-family: "Roboto";
   margin-right: 10rem;
   margin-left: 1rem;
-  width: 370px;
+  width: 20rem;
 }
+
+@media screen and (min-width: 1280px) {
+  .container_empresa h2 {
+    font-size: 1.263rem;
+    line-height: 1.688rem;
+    margin-right: 10rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 23.125rem;
+  }
+}
+
 .empresa__image {
   background-repeat: no-repeat;
-  background-attachment: left;
+  background-attachment: bottom;
   background-size: cover;
-  height: 600px;
-  margin-top: 0;
+  height: 45vh;
+  width: 100vw;
+}
+
+@media screen and (min-width: 1280px) {
+  .empresa__image {
+    background-repeat: no-repeat;
+    background-attachment: left;
+    background-size: cover;
+    height: 600px;
+    margin-top: 0;
+    width: 40vw;
+  }
 }
 
 .brands {
-  display: grid;
+  display: fit;
   align-items: center;
   justify-items: center;
   min-height: 50vh;
   align-items: center;
   width: 100%;
   margin: 0 0;
-  height: 500px;
+  height: 31rem;
   background-color: #00a3e8;
+}
+
+@media screen and (min-width: 1280px) {
+  .brands {
+    display: grid;
+  }
 }
 
 .brands h2 {
@@ -92,9 +144,22 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  min-height: 80vh;
+  min-height: 70vh;
   align-items: center;
-  width: 100%;
+  width: 2rem;
   margin: 0 0;
-  height: 600px;
+  height: 3rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .empresa_video {
+    width: 100%;
+    margin: 0 0;
+    height: 600px;
+  }
+}
+
+.empresa_video video {
+  width: 300;
+  height: 100;
 }

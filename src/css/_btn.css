@@ -18,15 +18,15 @@
   position: absolute;
   top: 80%;
   left: 18%;
-  align-items: center;
+  align-items: right;
 }
 
 @media screen and (min-width: 1280px) {
   .btn--slide {
     position: absolute;
     top: 95%;
-    left: 18%;
-    transform: translate(280%, -90%);
+    left: 15%;
+    transform: translate(270%, -90%);
   }
 
   .btn--institutional {
@@ -104,15 +104,82 @@
   box-shadow: 0.313rem 0.125rem 0.125rem #fff;
 }
 
-.events button {
+.events .btn--events {
+  display: inline;
+  margin-left: 1.5rem;
   color: #00a3e8(78, 5, 107);
   background: rgb(0, 0, 0);
   border-color: #00a3e8(78, 5, 107);
   color: #00a3e8;
   box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
   font-size: 0.875rem;
+  width: 80vw;
 }
 
-.btn--events_comochegar {
-  background-color: unset;
+@media screen and (min-width: 1280px) {
+  .events .btn--events {
+    display: grid;
+    margin: 10rem 9rem auto;
+    color: #00a3e8(78, 5, 107);
+    background: rgb(0, 0, 0);
+    border-color: #00a3e8(78, 5, 107);
+    color: #00a3e8;
+    box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
+    font-size: 0.875rem;
+    width: 12vw;
+  }
+}
+
+.events .btn--events2 {
+  display: inline;
+  margin-left: 1.5rem;
+  margin-top: 6rem;
+  color: #00a3e8(78, 5, 107);
+  background: rgb(0, 0, 0);
+  border-color: #00a3e8(78, 5, 107);
+  color: #00a3e8;
+  box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
+  font-size: 0.875rem;
+  width: 80vw;
+}
+
+@media screen and (min-width: 1280px) {
+  .events .btn--events2 {
+    display: flex;
+    margin: 10rem 0rem auto;
+    color: #00a3e8(78, 5, 107);
+    background: rgb(0, 0, 0);
+    border-color: #00a3e8(78, 5, 107);
+    color: #00a3e8;
+    box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
+    font-size: 0.875rem;
+    width: 12vw;
+  }
+}
+
+.events .btn--events_comochegar {
+  display: flex;
+  position: absolute;
+  margin: 0;
+  top: 146rem;
+  right: 1.5rem;
+  background: #050505;
+  box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
+  font-size: 0.775rem;
+  width: 21vw;
+}
+
+@media screen and (min-width: 1280px) {
+  .events .btn--events_comochegar {
+    display: inline block;
+    position: absolute;
+    margin: 0 0 0 20rem;
+    top: 95rem;
+    right: 20rem;
+    background: #050505;
+    border-color: #00a3e8(78, 5, 107);
+    box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
+    font-size: 0.875rem;
+    width: 10vw;
+  }
 }
