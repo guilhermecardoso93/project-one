@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-       
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+       <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
         <link rel="stylesheet" href="./style.css">
         <title>StudioX Depoimentos</title>
     </head>
@@ -17,74 +30,81 @@
                         <span class="logo--studion__subtitle">Eventos</span>
                     </a>
                 </h1>
-
                 <ul class="navbar__links">
                     <li>
                         <a   href="enterprise.html">
-                        Empresa
+                            Empresa
                         </a> 
                     </li>
                     <li>
                         <a  href="events.html">
-                            Eventos
+                           Eventos
                         </a> 
                     </li>
                     <li>
                         <a  href="gallery.html"> 
                             Galeria
-                    </a>
+                        </a>
                     </li>
                     <li>
                         <a  class="active" href="testimonials.html">
                             Depoimentos
-                    </a> 
+                        </a> 
                     </li>
                     <li>
                         <a  href="contact.html">
                             Contatos
-                    </a>
+                        </a>
                     </li>
                 </ul>
+                    <button class="navbar__menu-btn">
+                        <i class="fas fa-bars"></i>
             </div> 
         </nav>   
-         <header>
-            <div class="hero">
-                <img src="./images/depoimento_back.jpg" alt="" class="slide__background-image"/>
-                <div class="container hero__container">
-                    <div class="hero__copy">
-                        <h3> o que falam sobre nós </h3>
-                        <h2>.depoimento</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque excepturi quos animi hic, iste eius magni dignissimos error architecto voluptatum, laboriosam ut. Qui hic aliquam sed nemo doloribus labore quia.</p>
+            <header>
+                <div class="hero">
+                        <img src="./images/depoimento_back.jpg" alt="" class="slide__background-image"/>
+                    <div class="container hero__container">
+                        <div class="hero__copy">
+                            <h3> 
+                                o que falam sobre nós 
+                            </h3>
+                                <h2>
+                                    .depoimento
+                                </h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque excepturi quos animi hic, iste eius magni dignissimos error architecto voluptatum, laboriosam ut. Qui hic aliquam sed nemo doloribus labore quia.
+                                    </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </header>
-
+            </header>
         <main>
-            <section class="depoimento">
-                <img src="images/depoimento.png" alt="">
-                <h2> 
-                    Jean Grey
-                </h2>
-                <span> 
-                    CEO da Imortalidade
-                </span>
-                <h2>
-                    "
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste eaque, quas voluptas quaerat minus provident fugiat recusandae autem optio laudantium. Modi quae, inventore aspernatur explicabo quam earum voluptas consequuntur dicta.
-                </p>
-
-            
-            </section>
-
-           
+            <section class="depoimento_container">
+                <div class="depoimento">
+                    <div class="depoimento-1" > 
+                        <img src="images/depoimento.png" alt="">
+                        <h2> 
+                           Jean Grey
+                       </h2>
+                           <span> 
+                               CEO da Imortalidade
+                           </span>
+                       <h3>
+                           "
+                       </h3>
+                           <p>
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste eaque, quas voluptas quaerat minus provident fugiat recusandae autem optio laudantium. Modi quae, inventore aspernatur explicabo quam earum voluptas consequuntur dicta.
+                           </p>
+                    </div>
+                </div>
+            </section>    
+        </main>
         <footer class="footer">
             <div class="container footer__container">
-            <h2 class="logo--studion"> 
-                Studio<span class="copy-primary">x</span>
-                <span class="logo--studion__subtitle">Eventos</span>
+                <h2 class="logo--studion"> 
+                    Studio<span class="copy-primary">x</span>
+                    <span class="logo--studion__subtitle">Eventos</span>
                 </h2>
             <form class="footer_form">
                 <label for="email">Receba news e promoções </label>     
@@ -95,7 +115,6 @@
                 </button>
                 </div>  
             </form>
-
                 <ul class="footer__social">
                     <il>
                         <a href="http://facebook.com" target="_blank">
@@ -119,5 +138,20 @@
             <small>Studio<span class="copy-primary">X</span> -  Todos Direitos Reservados </small>
                 </p>  
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src= "https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src= "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.0/jquery-migrate.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+        <script src="http://ciromattia.github.io/jquery.counterup/jquery.counterup.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="./script.js"></script>
+        </script>
     </body>
 </html>
+

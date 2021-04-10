@@ -1,21 +1,210 @@
+@media screen and (min-width: 1280px) {
+  .hero__copy {
+    position: absolute;
+    align-items: center;
+    bottom: 0ch;
+    margin: auto auto;
+    width: 50vw;
+    padding: 1rem 1.875rem;
+  }
+}
+
 .hero__copy h3 {
-  color: #f0ffff;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 0.75rem;
   letter-spacing: 3px;
-  line-height: 18px;
+  line-height: 10px;
   font-weight: 400;
   font-family: "Montserrat";
 }
+
+@media screen and (min-width: 1280px) {
+  .hero__copy h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    line-height: 10px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+}
+
 .hero__copy p {
   color: azure;
 }
 
-.depoimento {
+.depoimento_container {
+  height: fit-content;
+  width: fit-content;
   background-color: #00a3e8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .depoimento_container {
+    height: fit-content;
+    width: fit-content;
+    background-color: #00a3e8;
+    padding-left: 35rem;
+    padding-right: 30rem;
+    padding-top: 1rem;
+    padding-bottom: 20rem;
+  }
+}
+
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .depoimento img {
-  margin-top: 3rem;
-  align-items: center;
+  padding-left: 0rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  margin: 0;
+  width: 25rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .depoimento img {
+    padding-left: 6rem;
+    padding-top: 2rem;
+    margin: 0;
+    width: fit-content;
+  }
+}
+
+.depoimento h2 {
+  font-size: 4rem;
+  letter-spacing: 0.02rem;
+  line-height: 3rem;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Montserrat";
+  position: absolute;
+  align-items: bottom;
+  bottom: -2.35ch;
+  margin: auto auto;
+  margin-top: 0.25rem;
+  width: 50vw;
+  padding: 0.5rem 0.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .depoimento h2 {
+    font-size: 10rem;
+    letter-spacing: -0.75rem;
+    line-height: 20rem;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    position: absolute;
+    align-items: bottom;
+    bottom: -5.35ch;
+    margin: auto auto;
+    margin-top: 0.25rem;
+    width: 50vw;
+    padding: 1rem 0.5rem;
+  }
+}
+
+.depoimento span {
+  font-size: 1.5rem;
+  letter-spacing: -0.115rem;
+  line-height: 0.5rem;
+  color: #000000;
+  font-weight: 300;
+  font-family: "Montserrat";
+  align-items: bottom;
+  bottom: -20ch;
+  padding-top: 28rem;
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .depoimento span {
+    font-size: 2rem;
+    letter-spacing: -0.115rem;
+    line-height: 8.5rem;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Montserrat";
+    align-items: bottom;
+    bottom: -10ch;
+    padding-top: 30rem;
+    padding-left: 20rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.depoimento h3 {
+  font-size: 4.6rem;
+  letter-spacing: -0.75rem;
+  line-height: 20rem;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Montserrat";
+  position: absolute;
+  align-items: bottom;
+  bottom: -7ch;
+  margin: auto auto;
+  margin-top: 10rem;
+  width: 50vw;
+  padding-top: 200rem;
+  padding-left: 10rem;
+  padding-bottom: -2rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .depoimento h3 {
+    font-size: 11rem;
+    letter-spacing: -0.75rem;
+    line-height: 20rem;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    position: absolute;
+    align-items: bottom;
+    bottom: -7ch;
+    margin: auto auto;
+    margin-top: 1rem;
+    width: 50vw;
+    padding-top: 60rem;
+    padding-left: 20rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.depoimento p {
+  width: 20.813rem;
+  height: 1.688rem;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 0.2rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .depoimento p {
+    width: 45.813rem;
+    height: 4.688rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 5rem;
+    margin-top: 2rem;
+  }
 }

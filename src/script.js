@@ -1,6 +1,5 @@
 $(document).ready(() =>{
 
-
     $(".navbar__menu-btn").on("click", function () {
         $(".navbar__links").toggleClass("active");
         $(this).find("i").toggleClass("fa-bars");
@@ -37,3 +36,8 @@ $(document).ready(() =>{
     })
 });
 
+$(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide"
+    });
+  });
