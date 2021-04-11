@@ -15,6 +15,14 @@ $(document).ready(() =>{
     };
     $(".slider").slick(slickOptions);
 
+    const slickOptions2 = {  
+        autoplay: true,
+        dots: true,
+        prevArrow: '<button type="button" class="slick-prev slider__prev-arrow">Previous</button>;',
+        nextArrow: '<button type="button" class="slick-next slider__next-arrow">Previous</button>;',
+      };
+      $(".slider2").slick(slickOptions2);
+    
     $('.footer__form-button').on('click',() => {
         const valeu = $('#email').vaç();
         Email.send({
@@ -36,8 +44,3 @@ $(document).ready(() =>{
     })
 });
 
-$(window).load(function() {
-    $('.flexslider').flexslider({
-      animation: "slide"
-    });
-  });

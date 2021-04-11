@@ -1,26 +1,9 @@
-
-$('.depoimento').slick({
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-  });
+$(document).ready(()=>{
+  const slickOptions = {  
+    autoplay: false,
+    dots: true,
+    prevArrow: '<button type="button" class="slick-prev slider__prev-arrow">Previous</button>;',
+    nextArrow: '<button type="button" class="slick-next slider__next-arrow">Previous</button>;',
+  };
+    $('.slider2').slick({ });
+});

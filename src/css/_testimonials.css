@@ -9,12 +9,25 @@
   }
 }
 
+.hero__copy_testimonials h2 {
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 4.5rem;
+  color: var(--color-primary);
+  letter-spacing: -0.315rem;
+  line-height: 7.5rem;
+  align-items: center;
+  -webkit-text-stroke-width: 0.125rem;
+  -webkit-text-stroke-color: #fff;
+}
+
 .hero__copy h3 {
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 3px;
-  line-height: 10px;
-  font-weight: 400;
+  line-height: 4rem;
+  font-weight: 300;
   font-family: "Montserrat";
 }
 
@@ -57,154 +70,172 @@
   }
 }
 
-.depoimento {
-  display: grid;
-  grid-template-columns: 1fr;
+.slider2 {
+  position: relative;
+  height: 50rem;
+  background-color: #00a3e8;
+  color: #000000;
 }
 
-.depoimento img {
-  padding-left: 0rem;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  margin: 0;
-  width: 25rem;
+.slide2 {
+  position: relative;
+  height: 50vh;
+  background-color: #00a3e8;
+  color: #000000;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
 @media screen and (min-width: 1280px) {
-  .depoimento img {
-    padding-left: 6rem;
-    padding-top: 2rem;
-    margin: 0;
-    width: fit-content;
+  .slide2 {
+    position: relative;
+    height: 50vh;
+    background-color: #00a3e8;
+    color: #000000;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding: 2rem 20rem;
   }
 }
 
-.depoimento h2 {
-  font-size: 4rem;
-  letter-spacing: 0.02rem;
-  line-height: 3rem;
+@media screen and (min-width: 1280px) {
+  .slider2 {
+    position: relative;
+    height: 50rem;
+    background-color: #00a3e8;
+    color: #000000;
+  }
+}
+
+.slick-dots li button {
+  margin: 0 0;
+  padding-top: 3rem;
+}
+
+.slick-dots {
+  margin: 0 0;
+}
+.depoimento-img {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 20rem;
+  display: flex;
+}
+
+@media screen and (min-width: 1280px) {
+  .depoimento-img {
+    margin-right: 25rem;
+    margin-left: 25rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    width: 26rem;
+    display: block;
+  }
+}
+
+.slide2 h2 {
+  font-size: 3rem;
+  line-height: 0.01rem;
   color: #000000;
   font-weight: 700;
   font-family: "Montserrat";
-  position: absolute;
-  align-items: bottom;
-  bottom: -2.35ch;
+  align-items: center;
   margin: auto auto;
   margin-top: 0.25rem;
-  width: 50vw;
-  padding: 0.5rem 0.5rem;
+  padding-top: 0.5rem;
+  margin-bottom: 1.75rem;
+  padding-left: 2rem;
 }
 
 @media screen and (min-width: 1280px) {
-  .depoimento h2 {
-    font-size: 10rem;
-    letter-spacing: -0.75rem;
-    line-height: 20rem;
+  .slide2 h2 {
+    font-size: 5rem;
+    letter-spacing: 0.073rem;
+    line-height: 0.05rem;
     color: #000000;
     font-weight: 700;
     font-family: "Montserrat";
-    position: absolute;
-    align-items: bottom;
-    bottom: -5.35ch;
+    align-items: center;
     margin: auto auto;
-    margin-top: 0.25rem;
-    width: 50vw;
-    padding: 1rem 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 27rem;
   }
 }
 
-.depoimento span {
-  font-size: 1.5rem;
-  letter-spacing: -0.115rem;
-  line-height: 0.5rem;
-  color: #000000;
-  font-weight: 300;
-  font-family: "Montserrat";
-  align-items: bottom;
-  bottom: -20ch;
-  padding-top: 28rem;
+.slider2 span {
+  letter-spacing: 0.25rem;
+  line-height: 0.125rem;
   padding-left: 4rem;
-  padding-bottom: 2rem;
 }
 
 @media screen and (min-width: 1280px) {
-  .depoimento span {
-    font-size: 2rem;
-    letter-spacing: -0.115rem;
-    line-height: 8.5rem;
+  .slider2 span {
+    font-size: 0.975rem;
+    margin: 0;
+    letter-spacing: 0.25rem;
+    line-height: 0.125rem;
+    padding-top: 1rem;
+    padding-left: 26rem;
     color: #000000;
-    font-weight: 300;
+    font-weight: 400;
     font-family: "Montserrat";
-    align-items: bottom;
-    bottom: -10ch;
-    padding-top: 30rem;
-    padding-left: 20rem;
-    padding-bottom: 1rem;
   }
 }
 
-.depoimento h3 {
-  font-size: 4.6rem;
-  letter-spacing: -0.75rem;
-  line-height: 20rem;
-  color: #000000;
-  font-weight: 700;
-  font-family: "Montserrat";
-  position: absolute;
-  align-items: bottom;
-  bottom: -7ch;
+.slide2 h3 {
+  font-size: 8rem;
+  letter-spacing: 0.073rem;
+  line-height: 0.05rem;
+  align-items: center;
   margin: auto auto;
-  margin-top: 10rem;
-  width: 50vw;
-  padding-top: 200rem;
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
   padding-left: 10rem;
-  padding-bottom: -2rem;
 }
 
 @media screen and (min-width: 1280px) {
-  .depoimento h3 {
-    font-size: 11rem;
-    letter-spacing: -0.75rem;
-    line-height: 20rem;
+  .slide2 h3 {
+    font-size: 8rem;
+    letter-spacing: 0.073rem;
+    line-height: 0.05rem;
     color: #000000;
     font-weight: 700;
     font-family: "Montserrat";
-    position: absolute;
-    align-items: bottom;
-    bottom: -7ch;
+    align-items: center;
     margin: auto auto;
-    margin-top: 1rem;
-    width: 50vw;
-    padding-top: 60rem;
-    padding-left: 20rem;
-    padding-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding-left: 35rem;
   }
 }
 
-.depoimento p {
-  width: 20.813rem;
-  height: 1.688rem;
-  font-size: 1rem;
-  line-height: 30px;
-  color: #000000;
-  font-weight: 400;
-  font-family: "Montserrat";
+.slide2 p {
+  width: 40.813rem;
+  font-size: 1.22rem;
+  line-height: 1.875rem;
   text-align: center;
   padding-top: 1rem;
-  margin-top: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 20rem;
+  margin-top: 0.5rem;
 }
 
 @media screen and (min-width: 1280px) {
-  .depoimento p {
-    width: 45.813rem;
+  .slide2 p {
+    width: 80.813rem;
     height: 4.688rem;
-    font-size: 1.5rem;
-    line-height: 30px;
+    font-size: 1.32rem;
+    line-height: 1.875rem;
     color: #000000;
     font-weight: 400;
     font-family: "Montserrat";
     text-align: center;
-    padding-top: 5rem;
-    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-left: 15rem;
+    padding-right: 18rem;
+    margin-top: 0.5rem;
   }
 }

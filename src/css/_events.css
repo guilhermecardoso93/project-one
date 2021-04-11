@@ -18,7 +18,9 @@
 .events_2 {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: 16rem 13.5rem 5rem;
+  padding: 1rem;
+  margin: auto auto;
 }
 
 @media screen and (min-width: 1280px) {
@@ -26,6 +28,7 @@
   .events_2 {
     display: grid;
     grid-template-columns: 247px 600px 255px;
+    grid-template-rows: auto auto auto;
     width: 105%;
   }
 }
@@ -77,11 +80,12 @@
 .events_3_img,
 .events_4_img {
   float: right;
-  margin-top: 0.625rem;
+  margin: auto auto;
+  /*margin-top: 0.725rem;
   margin-right: 3rem;
   margin-left: 2.5rem;
   padding-left: 2rem;
-  margin-bottom: 0.12rem;
+  margin-bottom: 0.12rem;*/
 }
 
 @media screen and (min-width: 1280px) {
@@ -99,34 +103,26 @@
 }
 
 .events_1_text,
-.events_2_text {
+.events_2_text,
+.events_3__text {
   float: right;
   width: 90%;
-  margin-top: 01rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
   align-items: center;
 }
 
 @media screen and (min-width: 1280px) {
   .events_1_text,
-  .events_2_text {
+  .events_2_text,
+  .events_3__text {
     float: right;
-    width: 100%;
+    width: 31.25rem;
     margin-top: 3rem;
     margin-left: 3rem;
+    margin-right: 2rem;
   }
-}
-
-.events_3__text {
-  float: right;
-  width: 500px;
-  margin-top: 3rem;
-  margin-left: 2rem;
-  align-items: center;
-}
-
-@media screen and (min-width: 1280px) {
 }
 
 .events img {
@@ -152,7 +148,7 @@
 
 .events h4 {
   display: grid;
-  grid-template-columns: 1.5rem auto;
+  /*grid-template-columns: 1.5rem auto;*/
   gap: 0.825rem;
   font-size: 1rem;
   font-family: "Roboto";

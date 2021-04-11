@@ -1,4 +1,6 @@
 .slider {
+  position: relative;
+  height: 40.625rem;
   background-color: #00a3e8;
   color: #ffffff;
 }
@@ -46,7 +48,7 @@
 
 .slide__background-image {
   width: 100%;
-  height: 100%;
+  height: 60.625rem;
   object-fit: cover;
   object-position: center;
 }

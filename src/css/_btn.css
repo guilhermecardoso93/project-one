@@ -158,15 +158,17 @@
 }
 
 .events .btn--events_comochegar {
-  display: flex;
+  display: inline-block;
   position: absolute;
+  text-align: center;
   margin: 0;
-  top: 146rem;
-  right: 1.5rem;
+  top: 156rem;
+  right: 1rem;
   background: #050505;
   box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
-  font-size: 0.775rem;
+  font-size: 0.7rem;
   width: 21vw;
+  margin: auto auto;
 }
 
 @media screen and (min-width: 1280px) {
@@ -174,12 +176,12 @@
     display: inline block;
     position: absolute;
     margin: 0 0 1rem 20rem;
-    top: 95rem;
-    right: 20rem;
+    top: 99rem;
+    right: 45rem;
     background: #050505;
     border-color: #00a3e8(78, 5, 107);
     box-shadow: 0.313rem 0.125rem 0.125rem rgb(7, 7, 7);
     font-size: 0.875rem;
-    width: 10vw;
+    width: 9vw;
   }
 }
